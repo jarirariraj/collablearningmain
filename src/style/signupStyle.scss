@@ -1,0 +1,96 @@
+$dark-gray: #393e44;
+$light-gray: #484e55;
+$main-light-green: #7cfbcb;
+$main-green: #33ac8d;
+
+.signup-page {
+  height: 1000px;
+}
+
+.main {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 800px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  margin-bottom: 20%;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+  padding-top: 40px;
+  color: $main-green;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.email,
+.school,
+.username,
+.password {
+  width: 56%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 22%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.first-name,
+.last-name {
+  width: 36%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 10%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.username:focus,
+.passcode:focus,
+.first-name:focus,
+.last-name:focus,
+.email:focus,
+.school:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+select,
+option {
+  text-align: center;
+  text-align-last: center;
+}
+.signup-page .MuiButton-contained {
+  background-color: $main-green;
+  margin-left: 46.3%;
+}
+
+.check-account {
+  padding: 15px;
+  margin-left: 41%;
+}

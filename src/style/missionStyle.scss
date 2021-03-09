@@ -1,0 +1,75 @@
+$dark-gray: #393e44;
+$light-gray: #484e55;
+$main-light-green: #7cfbcb;
+$main-green: #33ac8d;
+
+.about-container {
+  height: 850px;
+  background-color: $light-gray;
+}
+
+.about-container2 {
+  height: 750px;
+  background-color: $dark-gray;
+}
+
+.about-image {
+  height: 90%;
+  width: 100%;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+.top-image .about-text {
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  position: absolute;
+  top: 86%;
+}
+
+.about-image .about-centered {
+  position: absolute;
+  top: 52%;
+  left: 28%;
+  color: $dark-gray;
+  font-size: 80px;
+  font-weight: 800;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.about-text {
+  color: $dark-gray;
+  font-weight: 200;
+  font-size: 18px;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 10%;
+  top: 12%;
+}
+.about-text2 {
+  color: $dark-gray;
+  font-weight: 200;
+  font-size: 18px;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 10%;
+  top: 55%;
+}
+
+.MuiPaper-root {
+  position: absolute;
+  top: 70%;
+  left: 35.8%;
+  width: 35%;
+  opacity: 0.8;
+  justify-content: center;
+  height: 45%;
+  background-color: $dark-gray;
+}

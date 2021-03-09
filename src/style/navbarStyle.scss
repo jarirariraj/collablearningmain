@@ -1,0 +1,99 @@
+$dark-gray: #393e44;
+$light-gray: #484e55;
+$main-light-green: #7cfbcb;
+$main-green: #33ac8d;
+
+li,
+a,
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  padding-top: 15%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav li a {
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0, 3s ease 0s;
+}
+
+nav li a:hover {
+  color: gray;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 7%;
+  background-color: $dark-gray;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 4%;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+}
+
+.login-page {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.MuiSvgIcon-root {
+  color: $main-green;
+}
+
+.login-button {
+  padding-left: 60%;
+}
+
+.signup-button {
+  padding-left: 4%;
+}
+
+.mission-button {
+  padding-left: 30%;
+}
+
+nav .MuiButton-root {
+  padding: 0;
+  margin-bottom: 10%;
+}
+
+nav .MuiButton-root:hover {
+  color: gray;
+}
+
+.MuiMenu-list {
+  background-color: $dark-gray;
+}
+
+.notif-button,
+.menu-button {
+  padding: 0;
+}
+
+ul {
+  max-width: 100%;
+}

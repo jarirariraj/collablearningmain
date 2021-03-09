@@ -1,0 +1,198 @@
+$dark-gray: #393e44;
+$light-gray: #484e55;
+$main-light-green: #7cfbcb;
+$main-green: #33ac8d;
+
+.top-container {
+  height: 900px;
+  background-color: $light-gray;
+}
+
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
+.top-image img {
+  margin-top: 5.5%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.centered {
+  position: absolute;
+  top: 62%;
+  left: 28%;
+  color: $main-light-green;
+  font-size: 80px;
+  font-weight: 800;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.top-image p {
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  position: absolute;
+  top: 86%;
+  left: 45%;
+}
+
+.top-image .top-buttons {
+  position: absolute;
+  top: 98%;
+  left: 40%;
+  width: 100%;
+}
+
+.button1 button {
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  border-color: transparent;
+  color: $light-gray;
+  background-color: $main-light-green;
+}
+
+.button1 button:hover {
+  transition: 0.8s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.button2 button {
+  margin-left: 1.5%;
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  border-color: white;
+  color: $light-gray;
+  background-color: transparent;
+}
+
+.button2 button:hover {
+  transition: 0.8s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.component-img1 {
+  padding-left: 10%;
+}
+
+.what-is-collab {
+  height: 800px;
+  background-color: $dark-gray;
+
+  h1 {
+    color: $main-light-green;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    margin: 0;
+    font-size: 35px;
+  }
+}
+
+.components-container {
+  img {
+    max-width: 260px;
+    margin: 20px 5.8%;
+  }
+  span {
+    font-size: 20px;
+    color: $main-light-green;
+    margin-left: 5%;
+    padding-left: 18%;
+  }
+  div {
+    margin-top: 4%;
+  }
+}
+
+.connect-container {
+  height: 675px;
+  background-color: $dark-gray;
+  h1 {
+    font-size: 35px;
+    color: $main-light-green;
+    margin: 0;
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+}
+
+.study-container {
+  height: 675px;
+  background-color: $light-gray;
+  h1 {
+    font-size: 35px;
+    color: $main-light-green;
+    margin: 0;
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+}
+
+.success-container {
+  height: 675px;
+  background-color: $dark-gray;
+  position: relative;
+  h1 {
+    font-size: 35px;
+    color: $main-light-green;
+    margin: 0;
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+}
+
+ul {
+  padding-top: 3%;
+  padding-left: 20%;
+  max-width: 60%;
+}
+
+.signup-container {
+  height: 800px;
+  background: $dark-gray;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+}
+
+.signup-button button {
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  border-color: transparent;
+  color: $light-gray;
+  background-color: $main-light-green;
+}
+
+.signup-button button:hover {
+  transition: 0.8s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.quote {
+  color: $dark-gray;
+  font-weight: 200;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
