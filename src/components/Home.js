@@ -27,7 +27,7 @@ const Home = () => {
         </Router>
         </span>
       <span className = "button2">
-        <Router>
+        <Router forceRefresh>
           <button>
           <Link to="/login">Login</Link>
           </button>
